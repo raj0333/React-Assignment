@@ -83,8 +83,11 @@ button.rem {
   border-radius: 4px;
   font-size: 17px;
   cursor:pointer;
+  margin-bottom:40px;
 }
-
+.cart-item img {
+  width: 20%;
+}
 @media (max-width: 991.98px) { 
   .shopping-content{
     padding-left:20px;
@@ -94,5 +97,8 @@ button.rem {
   .filters div button{
     margin-left:2px;
     margin-right:2px;
+  }
+  .cart-item img {
+    width: 50%;
   }
  }
